@@ -1,0 +1,8 @@
+#logo-pane{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url("../images/logo_square.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 350px; */
+    border-radius: 150px;
+}
