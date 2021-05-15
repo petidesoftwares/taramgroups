@@ -1,0 +1,12 @@
+{
+    "name": "dell/taramgroups",
+    "description": "taram group of companies",
+    "type": "composer-plugins",
+    "authors": [
+        {
+            "name": "petidesoftwares",
+            "email": "petideenterprise@gmail.com"
+        }
+    ],
+    "require": {}
+}
