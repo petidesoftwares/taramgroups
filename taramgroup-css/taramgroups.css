@@ -1,8 +1,231 @@
 #logo-pane{
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)), url("../images/logo_square.PNG");
+    background: linear-gradient(rgba(202, 199, 199, 0.842),rgba(238, 237, 237, 0.4)), url("../images/logo_square.PNG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 350px; */
-    border-radius: 150px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#header{
+    background-color: slategrey;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top: 0px;
+}
+
+#header-name{
+    text-align: center;
+    font-size: 42px;
+    color: goldenrod;
+}
+
+#header-name p{
+    margin: 0px;
+    color: honeydew;
+    font-size: 24px;
+}
+
+#alternate-nav{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#banner-1{
+    background:  url("../images/computer_2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 140px;
+    /* width: 70px; */
+    /* border-radius: 35px; */
+}
+
+#home{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 84px;
+    color: honeydew;
+}
+
+#home p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    color: goldenrod;
+
+}
+
+#nav-bar{
+    margin-top: 4%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#nav-bar ul{
+    width: 50%;
+    margin-left: 50%;
+    margin-bottom: 0px;
+}
+
+
+#nav-bar li{
+    width: 20%;
+    display: inline;
+    float: left;
+    margin-top: 2px;
+    margin-right: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inactive-li{
+    color: honeydew;
+}
+
+#nav-bar li:hover{
+    color: goldenrod;
+    cursor: pointer;
+    background-color: honeydew;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active-li{
+    color: goldenrod;
+    cursor: pointer;
+    background-color: honeydew;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#alternate-nav{
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 50%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#alternate-nav li{
+    width: 10%;
+    display: inline;
+    float: left;
+    margin-top: 2px;
+    margin-right: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#alternate-nav li:hover{
+    color: goldenrod;
+    cursor: pointer;
+    background-color: honeydew;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a:hover{
+    color: goldenrod;
+    cursor: pointer;
+    background-color: honeydew;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: honeydew;
+}
+
+@media only screen and (max-width:600px){
+    #logo-pane{
+        background: linear-gradient(rgba(202, 199, 199, 0.842),rgba(238, 237, 237, 0.4)), url("../images/logo_square_mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+    }
+
+
+    #header-name{
+        text-align: center;
+        font-size: 28px;
+        color: goldenrod;
+        padding-top: 0px;
+    }
+    
+    #header-name p{
+        margin: 0px;
+        color: honeydew;
+        font-size: 18px;
+    }
+
+    #banner-1{
+        background:  url("../images/computer_2.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+        margin-top: 200px;
+        /* width: 70px; */
+        /* border-radius: 35px; */
+    }
+    
+    #home{
+        margin-top: 1%;
+        text-align: center;
+        font-size: 44px;
+        color: honeydew;
+    }
+
+    #nav-bar{
+        width: 40%;
+        margin-top: 4%;
+        background-color: lightslategray;
+    }
+
+    #nav-bar li{
+        display: inline-block;
+        width: 90%;
+        font-size: 14px;
+        font-weight: normal;
+        border-radius: 5px;
+        margin-bottom: 4px;
+    }
+
+    #nav-bar ul{
+        width: 90%;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
 }

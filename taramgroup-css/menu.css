@@ -1,0 +1,21 @@
+.mobile-menu{
+    padding-top: 2px;
+    padding-left: 2px;
+    width: 30px;
+    height: 25px;
+    background-color:lightslategrey;
+    border: 2px solid honeydew;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.menu-lines{
+    height: 3px;
+    width: 22px;
+    /* margin-left: 2px; */
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    background-color: honeydew;
+}
